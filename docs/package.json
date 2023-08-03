@@ -1,0 +1,22 @@
+{
+  "name": "prismic-documentation",
+  "version": "0.0.1",
+  "description": "Frontend sharing documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Sanju",
+    "email": "sanju@nextbitsgroup.com"
+  },
+  "repository": "https://github.com/sanjunextbits/frontend-documentation.git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
